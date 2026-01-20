@@ -3,7 +3,7 @@ from groq import Groq
 
 st.set_page_config("GAME DEVs", layout="wide")
 st.title("📢 ULTIMATE GAME DEVs")
-st.image("Download wallpapers BMW M4 Coupe, 2016, F82, GBMW, Black M4, Black BMW, tuning for desktop free_ Pictures for desktop free.jpg")
+st.image("Download wallpapers BMW M4 Coupe, 2016, F82, GBMW, Black M4, Black BMW, tuning for desktop free_ Pictures for desktop free.jpg, gamedev1.jpeg")
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 col1, col2 = st.columns(2)
